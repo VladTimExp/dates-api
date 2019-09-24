@@ -42,6 +42,7 @@ function createWeekendDaysArray(dateStr) {
 }
 
 function getWeekendDaysInMonth(dateArr) {
+
     let weekendDays = [];
 
     for (let i = 0; i < dateArr.length; i++) {
