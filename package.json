@@ -1,0 +1,20 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "description": "test task",
+    "main": "testing_service.js",
+    "scripts": {
+        "test-init": "jasmine init",
+        "test": "jasmine"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "body-parser": "^1.19.0"
+    },
+    "devDependencies": {
+        "jasmine": "^3.5.0",
+        "request": "^2.88.0"
+    }
+}
