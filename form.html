@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weekend Days</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<script src="testing_service.js"></script>
+
+<body>
+    <form action="http://localhost:3000/dates" method="GET" class="postcard">
+        <h3>Weekend Days</h3>
+        <div class="form-row">
+            <label for="message">Write dates with a comma</label>
+            <textarea name="months" rows="5" id="message" placeholder="YYYY-MM" required></textarea>
+        </div>
+        <div class="form-row">
+            <input type="submit" value="Get weekend days">
+        </div>
+    </form>
+</body>
+
+</html>
